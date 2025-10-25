@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogCard from '../components/BlogCard';
-
+import { Link } from 'react-router-dom';
 // Datos de los artículos del blog
 const blogPosts = [
   {
@@ -116,13 +116,13 @@ function Blog() {
             Utiliza nuestro simulador interactivo para experimentar con los algoritmos 
             de reemplazo de páginas y ver cómo se comportan en diferentes escenarios.
           </p>
-          <a 
-            href="/simulator"
+          <Link 
+            to="/simulator"
             className="inline-block bg-accent text-white text-lg font-semibold no-underline py-3 px-8 rounded-lg shadow-lg transition-all
                        transform hover:bg-accent-hover hover:-translate-y-1"
           >
             Ir al Simulador →
-          </a>
+          </Link>
         </div>
       </div>
     </div>
