@@ -9,7 +9,7 @@ import IntroduccionMemoriaVirtual from './pages/blog/IntroduccionMemoriaVirtual'
 import AlgoritmoFIFO from './pages/blog/AlgoritmoFIFO';
 import AlgoritmoLRU from './pages/blog/AlgoritmoLRU';
 import AlgoritmoOptimo from './pages/blog/AlgoritmoOptimo';
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   return (
