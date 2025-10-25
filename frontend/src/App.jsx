@@ -9,6 +9,7 @@ import IntroduccionMemoriaVirtual from './pages/blog/IntroduccionMemoriaVirtual'
 import AlgoritmoFIFO from './pages/blog/AlgoritmoFIFO';
 import AlgoritmoLRU from './pages/blog/AlgoritmoLRU';
 import AlgoritmoOptimo from './pages/blog/AlgoritmoOptimo';
+import { Analytics } from '@vercel/analytics/next';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
           </Routes>
         </main>
       </div>
+      <Analytics />
     </BrowserRouter>
   );
 }
